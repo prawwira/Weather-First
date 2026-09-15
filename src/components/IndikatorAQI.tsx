@@ -1,6 +1,6 @@
 // components/IndikatorAQI.tsx
 import { Text, View } from "react-native";
-import { LaporanUdara } from "../../types/cuaca";
+import { LaporanUdara } from "../types/cuaca";
 
 const WARNA_TINGKAT: Record<LaporanUdara["tingkat"], string> = {
   BAIK: "green",
